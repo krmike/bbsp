@@ -1,0 +1,153 @@
+   Reporting:
+
+o   Incidents Summary
+
+
+§  Can we shade the totals column and row in a slightly different colour?
+
+§  Change: Only show injury type & activity if there are incidents
+
+
+
+
+
+
+
+
+
+-        Training Log:
+
+o   Validation on:
+
+§  Patroller
+
+§  Patroller comment (if patroller selected)
+
+
+-        Incident
+
+o   Creating:
+
+§  Casualty Details
+
+·        Add Validation to:
+
+o   All Fields
+
+·        Add “select option” to:
+
+o   Gender
+
+·        Possible to have “Australia” as the default answer for Country?
+
+§  Incident Details:
+
+·        Add “select option” to:
+
+o   Helmet Worn
+
+o   Activity
+
+o   Equipment Source
+
+o   Weather
+
+o   Snow
+
+o   Visibility
+
+·        Add validation to:
+
+o   All fields except evidence
+
+§  Injuries / Illness Details
+
+·        Add select option” to:
+
+o   Suspected Spinal injury
+
+o   LOC
+
+·        Add validation to:
+
+o   All fields expect: Probable Injuries Comments
+
+·        Injury Location: Is it possible to record the location of where we actually touch the scree as well as the general area.
+
+o   The general area is all we need to report on overall
+
+o   It would be good to be able to signify that the injury is on the left or right side of the body (be more accurate)
+
+§  Treatment Handover:
+
+·        Add “select option” to:
+
+o   Penthrane
+
+o   Entonox
+
+o   Oxygen
+
+·        Add Validation to:
+
+o   All fields Except:
+
+§  Equipment Left with Casualty
+
+§  Additional notes
+
+§  Validation: We need to be able to save the form and bypass the validation as we do have operational needs for this. There are times when we move a casualties between facilities and change who is completely the form. Thus, we need to be able to “save the form”, but not “submit the form”. However, this now means that we need to be able to have a visual indication of “non-submitted” forms. One suggestion for this would be have “non-submitted” forms in red, and submitted forms in black.
+
+·        Overall:
+
+o   We need a “save” button, that does not check validation
+
+o   We need a “submit” Button, that does check validation
+
+o   This is ONLY for the Incident Form
+
+o   Editing:
+
+§  Incident Details
+
+·        The following fields are not recalling entered data:
+
+o   Ability
+
+o   Patrollers Role
+
+§  Injuries
+
+·        Injury Category / type not operating in Parent child relationship
+
+·        The following fields are not recalling entered data:
+
+o   Suspected Spinal Comment
+
+o   LOC Comment
+
+o   Injury Location
+
+§  Treatment Handover
+
+·        The following fields are not recalling entered data:
+
+o   Penthrane Times
+
+o   Entonox Amounts
+
+o   Oxygen flow rate
+
+o   Equipment Used
+
+o   Equipment Leaving
+
+o   Parent Guardian checkbox
+
+o   Unable to sign Reason
+
+§  Once a record has been submitted, please remove the “unable to sign” checkbox if the form was signed.
+
+o   Reporting:
+
+§  Same issues as per Editing with data not being recalled.
