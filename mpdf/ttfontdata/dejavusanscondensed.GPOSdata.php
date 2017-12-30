@@ -1,4 +1,4 @@
-<?php
+<?php
 $LuCoverage = array (
   0 => 
   array (
@@ -591,5 +591,5 @@ $LuCoverage = array (
       61207 => 19,
     ),
   ),
-);
+);
 ?>

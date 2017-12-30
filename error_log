@@ -1,1 +1,7 @@
-[10-Jun-2015 06:21:04 UTC] PHP Fatal error:  Class 'Db' not found in /home/zhenke/public_html/Margarita/classes/Access.php on line 14
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71
+[30-Dec-2017 11:22:58 Europe/Minsk] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/mikeagen/bbsp.mikedev.by/classes/Access.php on line 71

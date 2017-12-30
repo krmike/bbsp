@@ -1,541 +1,541 @@
-body {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    background: #f3f3f4;
-    font-family: Verdana;
-    color: #676a6c;
-    font-size: 14px;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.login {
-    margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    margin-left: -120px;
-    margin-top: -175px;
-    position: fixed;
-    align-self: center;
-    width: 240px;
-    height: 350px;
-}
-
-.login .logo {
-    padding: 0 45px;
-}
-
-.login .welcome {
-    font-size: 16px;
-    text-align: center;
-    padding: 15px 0 0 0;
-    width: 240px;
-}
-
-.login .enter-login {
-    text-align: center;
-    padding: 10px 0 0 0;
-    width: 240px;
-}
-
-.login input {
-    display: inline-block;
-    width: 240px;
-    height: 25px;
-    padding: 5px;
-}
-
-.login .input {
-    padding: 8px 0 0 0;
-}
-
-.login .submit {
-    background: #3b3b3b;
-    color: #f3f3f4;
-    cursor: pointer;
-    border: 0;
-}
-
-.login .submit:hover {
-    background: #b8032b;
-}
-
-.login .error {
-    color: #b8032b;
-    padding: 10px 0 0 0;
-}
-
-.header>.container {
-    background: #e7eaec;
-}
-
-.header {
-    padding: 10px;
-    background: #e7eaec;
-}
-
-.header .logo {
-    float: left;
-}
-
-.header .logo a {
-    cursor: pointer;
-}
-
-.header .logout a {
-    color: #676a6c;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.header .logout a .patroller-link {
-    text-decoration: none;
-}
-
-.header .logout a .patroller-link:hover {
-    text-decoration: underline;
-}
-
-
-.header .logout a.patroller-link {
-    text-decoration: none;
-}
-
-.header .logout a.patroller-link:hover {
-    text-decoration: underline;
-}
-
-.header .settings {
-    float: right;
-}
-
-
-@media (min-width: 501px) {
-    .header>.container {
-        padding-left: 20px;
-    }
-
-    .incident>.label {
-        width: 200px;
-    }
-}
-
-.menu {
-    background: #d45b2c;
-}
-
-.menu>.container {
-    text-align: center;
-}
-
-.menu>.container a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menu>.container a:hover {
-    text-decoration: underline;
-}
-
-.menu ul,li {
-    list-style: none;
-}
-
-.menu li.selected {
-    background: #e19230;
-}
-
-.main {
-    padding: 30px 0;
-}
-
-.main>.container {
-    background: #ffffff;
-    color: #000000;
-}
-
-.main>.container select {
-    min-width: 100px;
-}
-
-.main>.container a {
-    color: #577dd0;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.main>.container a:hover {
-    text-decoration: underline;
-}
-
-.main .submit {
-    background: #3b3b3b;
-    padding: 5px 20px;
-    color: #f3f3f4;
-    cursor: pointer;
-    border: 0;
-    margin-top: 10px;
-}
-
-.main .submit:hover {
-    background: #b8032b;
-}
-
-.time-input {
-    width: 60px;
-}
-
-.right-cell {
-    text-align: right;
-}
-
-@media (max-width: 700px) {
-
-    .header .settings {
-        padding: 5px 10px 0 0;
-    }
-
-    .header .welcome {
-        font-size: 14px;
-        height: 40px;
-        padding-top: 0;
-        padding-left: 10px;
-        float: left;
-        width: 165px;
-    }
-
-    .header .logout {
-        font-size: 14px;
-        float: right;
-        width: 90px;
-        padding: 10px 0 0 0;
-    }
-
-    .header .logo {
-        width: 40px;
-    }
-
-    .header .logo img {
-        height: 40px;
-    }
-
-    .header .settings img {
-        height: 30px;
-    }
-
-    .menu>.container a {
-        font-size: 12px;
-    }
-
-    .menu ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu li {
-        display: inline-block;
-        padding: 5px;
-    }
-
-    .main>.container {
-        font-size: 13px;
-        padding: 10px;
-    }
-
-}
-
-@media (min-width: 701px) {
-    .incident>.label {
-        width: 250px;
-    }
-
-    .header .settings {
-        padding: 10px 15px 0 0;
-    }
-
-    .header .logo {
-        width: 80px;
-    }
-
-    .header .welcome {
-        font-size: 16px;
-        height: 80px;
-        padding-top: 20px;
-        padding-left: 15px;
-        float: left;
-        width: 185px;
-    }
-
-    .header .logout {
-        font-size: 16px;
-        float: right;
-        width: 120px;
-        padding: 10px 0 0 0;
-    }
-
-    .header .logo img {
-        height: 80px;
-    }
-
-    .header .settings img {
-        height: 60px;
-    }
-
-    .menu>.container a {
-        font-size: 17px;
-    }
-
-    .menu ul {
-        padding: 0 0 0 20px;
-        margin: 0;
-    }
-
-    .menu li {
-        display: inline-block;
-        padding: 15px;
-    }
-
-    .main>.container {
-        font-size: 17px;
-        padding: 10px;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .main>.container {
-        width: 850px;
-    }
-}
-.vitails, .phones, .evidences, .injures {
-    display: inline-block;
-}
-@media (min-width: 1200px) {
-    .incident-form {
-        text-align: left;
-        display: block;
-    }
-
-
-    .main>.container {
-        width: 1100px;
-        padding: 20px;
-        margin: 0 auto;
-    }
-}
-
-h3.incident-title {
-    color: #577dd0;
-}
-
-.report-header {
-    color: #577dd0;
-}
-
-.report-header-incident {
-    color: #577dd0;
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.incident-form {
-    text-align: left;
-    display: block;
-}
-.incident {
-    display: block;
-    padding-top: 5px;
-}
-
-.incident>.label {
-    vertical-align: top;
-    margin: 5px 0 0 10px;
-    display: inline-block;
-    font-family: Verdana;
-    color: #676a6c;
-    text-align: right;
-}
-
-.incident>.input{
-    display: inline-block;
-}
-
-.input-left{
-    display: inline-block;
-}
-
-.add_multiple {
-    padding-left: 10px;
-    display: inline;
-}
-
-.map-container {
-    height: 70%;
-    text-align: center;
-}
-
-.map-container>div {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-input:focus, select:focus, textarea:focus {
-    border-color: #1f2ec0;
-}
-
-.psfcc {
-    width: 40px;
-}
-
-.lrs {
-    width: 100px;
-}
-
-
-.remove-phone {
-    display: inline-block;
-}
-
-.form-div {
-    padding: 5px;
-}
-
-.run-comment {
-    width: 140px;
-}
-
-.main>.container {
-    min-height: 70%;
-}
-
-.main>.container a.print {
-    color: #ffffff;
-    display: inline-block;
-}
-
-.main>.container a.print:hover {
-    text-decoration: none;
-}
-
-.injury-location>img {
-    vertical-align: top;
-    z-index: 20;
-}
-
-.injury-location {
-    min-width: 317px;
-    height: 268px;
-    text-align: center;
-}
-
-.injuryLocation {
-    position: relative;
-    top: -266px;
-    width: 317px;
-    height: 270px;
-}
-
-#incident-form {
-    display: none;
-}
-
-.date {
-    width: 180px;
-}
-
-.time {
-    width: 110px;
-}
-
-.table-responsive .bootstrap-datetimepicker-widget {
-    overflow: visible !important;
-    z-index: 20000;
-}
-
-.datepicker {
-    top: 100%;
-}
-
-select.hours {
-    min-width: 30px !important;
-}
-
-.comment {
-    width: 120px;
-}
-
-.report-map {
-    width: 100%;
-    min-height: 450px;
-}
-
-.rotateText {
-    text-align: center;
-    vertical-align: middle !important;
-}
-
-.report-body {
-    position: relative;
-    display: inline-block;
-    top: -266px;
-    width: 317px;
-    height: 270px;
-}
-
-.report-img {
-    display: inline-block;
-    height: 270px;
-}
-
-.red {
-    color: #ff0000;
-}
-
-.amount-red {
-    color: #901818;
-}
-
-polygon {
-    cursor: pointer;
-}
-
-.pdf-table {
-    width: 100%;
-    vertical-align: top;
-    border: 1px solid #ddd;
-    border-spacing: 0;
-    border-collapse: collapse;
-    background: #ffffff;
-}
-
-.pdf-table th,td {
-    text-align: left;
-    border: 1px solid #ddd !important;
-    padding: 10px;
-}
-
-.pdf-table th.rotateText, td.rotateText {
-    text-align: center !important;
-}
-
-polygon {
-    opacity: 0;
-}
-polygon.poly-show {
-    opacity: 0.5;
-}
-
-.pdf-body {
-    position: relative;
-    display: inline-block;
-    padding-top: -266px;
-    width: 317px;
-    height: 270px;
-}
-
-.pdf-img {
-    display: inline-block;
-    height: 270px;
+body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    background: #f3f3f4;
+    font-family: Verdana;
+    color: #676a6c;
+    font-size: 14px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.login {
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -175px;
+    position: fixed;
+    align-self: center;
+    width: 240px;
+    height: 350px;
+}
+
+.login .logo {
+    padding: 0 45px;
+}
+
+.login .welcome {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0 0 0;
+    width: 240px;
+}
+
+.login .enter-login {
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 240px;
+}
+
+.login input {
+    display: inline-block;
+    width: 240px;
+    height: 25px;
+    padding: 5px;
+}
+
+.login .input {
+    padding: 8px 0 0 0;
+}
+
+.login .submit {
+    background: #3b3b3b;
+    color: #f3f3f4;
+    cursor: pointer;
+    border: 0;
+}
+
+.login .submit:hover {
+    background: #b8032b;
+}
+
+.login .error {
+    color: #b8032b;
+    padding: 10px 0 0 0;
+}
+
+.header>.container {
+    background: #e7eaec;
+}
+
+.header {
+    padding: 10px;
+    background: #e7eaec;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .logo a {
+    cursor: pointer;
+}
+
+.header .logout a {
+    color: #676a6c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header .logout a .patroller-link {
+    text-decoration: none;
+}
+
+.header .logout a .patroller-link:hover {
+    text-decoration: underline;
+}
+
+
+.header .logout a.patroller-link {
+    text-decoration: none;
+}
+
+.header .logout a.patroller-link:hover {
+    text-decoration: underline;
+}
+
+.header .settings {
+    float: right;
+}
+
+
+@media (min-width: 501px) {
+    .header>.container {
+        padding-left: 20px;
+    }
+
+    .incident>.label {
+        width: 200px;
+    }
+}
+
+.menu {
+    background: #d45b2c;
+}
+
+.menu>.container {
+    text-align: center;
+}
+
+.menu>.container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu>.container a:hover {
+    text-decoration: underline;
+}
+
+.menu ul,li {
+    list-style: none;
+}
+
+.menu li.selected {
+    background: #e19230;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.main>.container {
+    background: #ffffff;
+    color: #000000;
+}
+
+.main>.container select {
+    min-width: 100px;
+}
+
+.main>.container a {
+    color: #577dd0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main>.container a:hover {
+    text-decoration: underline;
+}
+
+.main .submit {
+    background: #3b3b3b;
+    padding: 5px 20px;
+    color: #f3f3f4;
+    cursor: pointer;
+    border: 0;
+    margin-top: 10px;
+}
+
+.main .submit:hover {
+    background: #b8032b;
+}
+
+.time-input {
+    width: 60px;
+}
+
+.right-cell {
+    text-align: right;
+}
+
+@media (max-width: 700px) {
+
+    .header .settings {
+        padding: 5px 10px 0 0;
+    }
+
+    .header .welcome {
+        font-size: 14px;
+        height: 40px;
+        padding-top: 0;
+        padding-left: 10px;
+        float: left;
+        width: 165px;
+    }
+
+    .header .logout {
+        font-size: 14px;
+        float: right;
+        width: 90px;
+        padding: 10px 0 0 0;
+    }
+
+    .header .logo {
+        width: 40px;
+    }
+
+    .header .logo img {
+        height: 40px;
+    }
+
+    .header .settings img {
+        height: 30px;
+    }
+
+    .menu>.container a {
+        font-size: 12px;
+    }
+
+    .menu ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .main>.container {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 701px) {
+    .incident>.label {
+        width: 250px;
+    }
+
+    .header .settings {
+        padding: 10px 15px 0 0;
+    }
+
+    .header .logo {
+        width: 80px;
+    }
+
+    .header .welcome {
+        font-size: 16px;
+        height: 80px;
+        padding-top: 20px;
+        padding-left: 15px;
+        float: left;
+        width: 185px;
+    }
+
+    .header .logout {
+        font-size: 16px;
+        float: right;
+        width: 120px;
+        padding: 10px 0 0 0;
+    }
+
+    .header .logo img {
+        height: 80px;
+    }
+
+    .header .settings img {
+        height: 60px;
+    }
+
+    .menu>.container a {
+        font-size: 17px;
+    }
+
+    .menu ul {
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .main>.container {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .main>.container {
+        width: 850px;
+    }
+}
+.vitails, .phones, .evidences, .injures {
+    display: inline-block;
+}
+@media (min-width: 1200px) {
+    .incident-form {
+        text-align: left;
+        display: block;
+    }
+
+
+    .main>.container {
+        width: 1100px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+}
+
+h3.incident-title {
+    color: #577dd0;
+}
+
+.report-header {
+    color: #577dd0;
+}
+
+.report-header-incident {
+    color: #577dd0;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.incident-form {
+    text-align: left;
+    display: block;
+}
+.incident {
+    display: block;
+    padding-top: 5px;
+}
+
+.incident>.label {
+    vertical-align: top;
+    margin: 5px 0 0 10px;
+    display: inline-block;
+    font-family: Verdana;
+    color: #676a6c;
+    text-align: right;
+}
+
+.incident>.input{
+    display: inline-block;
+}
+
+.input-left{
+    display: inline-block;
+}
+
+.add_multiple {
+    padding-left: 10px;
+    display: inline;
+}
+
+.map-container {
+    height: 70%;
+    text-align: center;
+}
+
+.map-container>div {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #1f2ec0;
+}
+
+.psfcc {
+    width: 40px;
+}
+
+.lrs {
+    width: 100px;
+}
+
+
+.remove-phone {
+    display: inline-block;
+}
+
+.form-div {
+    padding: 5px;
+}
+
+.run-comment {
+    width: 140px;
+}
+
+.main>.container {
+    min-height: 70%;
+}
+
+.main>.container a.print {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.main>.container a.print:hover {
+    text-decoration: none;
+}
+
+.injury-location>img {
+    vertical-align: top;
+    z-index: 20;
+}
+
+.injury-location {
+    min-width: 317px;
+    height: 268px;
+    text-align: center;
+}
+
+.injuryLocation {
+    position: relative;
+    top: -266px;
+    width: 317px;
+    height: 270px;
+}
+
+#incident-form {
+    display: none;
+}
+
+.date {
+    width: 180px;
+}
+
+.time {
+    width: 110px;
+}
+
+.table-responsive .bootstrap-datetimepicker-widget {
+    overflow: visible !important;
+    z-index: 20000;
+}
+
+.datepicker {
+    top: 100%;
+}
+
+select.hours {
+    min-width: 30px !important;
+}
+
+.comment {
+    width: 120px;
+}
+
+.report-map {
+    width: 100%;
+    min-height: 450px;
+}
+
+.rotateText {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.report-body {
+    position: relative;
+    display: inline-block;
+    top: -266px;
+    width: 317px;
+    height: 270px;
+}
+
+.report-img {
+    display: inline-block;
+    height: 270px;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.amount-red {
+    color: #901818;
+}
+
+polygon {
+    cursor: pointer;
+}
+
+.pdf-table {
+    width: 100%;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+.pdf-table th,td {
+    text-align: left;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+.pdf-table th.rotateText, td.rotateText {
+    text-align: center !important;
+}
+
+polygon {
+    opacity: 0;
+}
+polygon.poly-show {
+    opacity: 0.5;
+}
+
+.pdf-body {
+    position: relative;
+    display: inline-block;
+    padding-top: -266px;
+    width: 317px;
+    height: 270px;
+}
+
+.pdf-img {
+    display: inline-block;
+    height: 270px;
 }

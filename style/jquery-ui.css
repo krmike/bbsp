@@ -1223,3 +1223,10 @@ body .ui-tooltip {
 	filter: Alpha(Opacity=30); /* support: IE8 */
 	border-radius: 8px;
 }
+.training-category {
+	display: none;
+}
+.training-title {
+	cursor: pointer;
+	padding: 0.5rem;
+}

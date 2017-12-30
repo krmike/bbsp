@@ -1,5 +1,5 @@
-<?php
-
+<?php
+
 $rtlSUB = array (
  "007CA" => array ( 1 => "0E23B", 3 => "0E23C", 2 => "0E23D",),
  "007CB" => array ( 1 => "0E23E", 3 => "0E23F", 2 => "0E240",),
@@ -31,18 +31,18 @@ $rtlSUB = array (
  "007E5" => array ( 1 => "0E28C", 3 => "0E28D", 2 => "0E28E",),
  "007E6" => array ( 1 => "0E28F", 3 => "0E290", 2 => "0E291",),
  "007E7" => array ( 1 => "0E292", 3 => "0E293", 2 => "0E294",),
-);
-$finals = '0E23B 0E23E 0E241 0E244 0E247 0E24A 0E24D 0E250 0E253 0E256 0E259 0E25C 0E25F 0E262 0E265 0E268 0E26B 0E26E 0E271 0E274 0E277 0E27A 0E27D 0E280 0E283 0E286 0E289 0E28C 0E28F 0E292 ';
+);
+$finals = '0E23B 0E23E 0E241 0E244 0E247 0E24A 0E24D 0E250 0E253 0E256 0E259 0E25C 0E25F 0E262 0E265 0E268 0E26B 0E26E 0E271 0E274 0E277 0E27A 0E27D 0E280 0E283 0E286 0E289 0E28C 0E28F 0E292 ';
 $rphf = array (
-);
+);
 $half = array (
-);
+);
 $pref = array (
-);
+);
 $blwf = array (
-);
+);
 $pstf = array (
-);
-
+);
+
  
 ?>
